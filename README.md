@@ -5,10 +5,14 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-## Step1 : Import the numpy module to use the built-in functions for calculation
-## Step 2: Prepare the lists from each linear equations and assign in np.array()
-## Step 3: Using the np.linalg.solve(), we can find the solutions.
-## Step 4: End the program
+## Step1 :
+Import the numpy module to use the built-in functions for calculation
+## Step 2:
+Prepare the lists from each linear equations and assign in np.array()
+## Step 3:
+Using the np.linalg.solve(), we can find the solutions.
+## Step 4: 
+End the program
 
 
 ## Program:
@@ -18,14 +22,8 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 #RegisterNumber:212224230257
 
 import numpy as np
-
-
-matrix = np.array([[2, 2],
-                   [1, 3]])
-
-
+matrix = np.array([[2, 2],[1, 3]])
 eigenvalues, eigenvectors = np.linalg.eig(matrix)
-
 print(f"Eigen values are {eigenvalues} and Eigen Vectors are {eigenvectors}")
 
 ```
